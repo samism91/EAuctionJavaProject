@@ -1,0 +1,27 @@
+/*
+	 JQuery FAQ
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+*					{ margin: 0; padding: 0; }
+html                { overflow-y: scroll; }
+body				{ font: 18px Georgia, serif; }
+
+#page-wrap			{ width: 500px; margin: 20px auto; }
+
+dl					{ clear: both; margin: 0 0 60px 0; }
+
+dt					{ border: 8px solid #7ac0d0; padding: 10px; background: white; 
+					  position: relative; font-style: italic; position: relative; 
+					  display: block; width: 100%; height: auto; }
+					
+dd.answer			{ background: white; 
+					  position: relative; width: 70%; float: right; }
+dd.answer div		{ padding: 10px; border-left: 8px solid #dedede;
+                      border-right: 8px solid #dedede; border-bottom: 8px solid #dedede;
+                      margin: 0 0 10px 0; }
+
+.answer-tab		    { background: url(images/answer-tag.png); display: block; 
+                      text-indent: -9999px; width: 105px; height: 50px; cursor: pointer;
+                      position: absolute; bottom: -58px; left: 10px;}
